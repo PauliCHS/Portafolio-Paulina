@@ -24,4 +24,4 @@ El sitio es responsive, interactivo y fácil de navegar.
    git clone <URL_DEL_REPOSITORIO>
 
 Autor:
-Paulina Huentel – Ingeniera Civil Industrial | Analista de Datos y Desarrolladora Web Inicial
+🔹Paulina Huentel – Ingeniera Civil Industrial | Analista de Datos y Desarrolladora Web Inicial
