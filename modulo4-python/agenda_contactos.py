@@ -1,3 +1,4 @@
+#Agenda simple para guardar contactos
 agenda = {}
 
 def agregar():

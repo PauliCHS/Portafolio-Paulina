@@ -1,3 +1,4 @@
+#Conversor simple para temperaturas y tipos de monedas
 def c_to_f(c): return (c * 9/5) + 32
 def f_to_c(f): return (f - 32) * 5/9
 def clp_to_usd(clp, tasa=900.0): return clp / tasa

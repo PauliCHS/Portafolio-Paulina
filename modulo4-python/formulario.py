@@ -1,3 +1,4 @@
+#Ejemplo de formulario básico
 def main():
     nombre = input("Nombre: ")
     edad = input("Edad: ")

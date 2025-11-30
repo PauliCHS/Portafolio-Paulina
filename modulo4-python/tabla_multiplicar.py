@@ -1,3 +1,4 @@
+#Tabla básica para multiplicar
 def tabla(n, hasta=10):
     for i in range(1, hasta+1):
         print(f"{n} x {i} = {n*i}")

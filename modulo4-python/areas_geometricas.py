@@ -1,3 +1,4 @@
+#cálculo de áreas geométricas
 import math
 
 def area_circulo(r): return math.pi * r * r

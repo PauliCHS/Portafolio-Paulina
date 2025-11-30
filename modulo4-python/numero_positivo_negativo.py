@@ -1,3 +1,4 @@
+#Indicador de números positivos y negativos simple
 def main():
     try:
         n = float(input("Ingresa un número: "))
