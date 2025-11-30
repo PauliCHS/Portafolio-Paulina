@@ -1,3 +1,4 @@
+--create_tables.sql
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE usuarios (

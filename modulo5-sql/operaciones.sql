@@ -1,3 +1,4 @@
+-- operaciones.sql
 INSERT INTO usuarios (nombre, correo) VALUES ('Paulina Huentel','paulina@example.com');
 INSERT INTO usuarios (nombre, correo) VALUES ('Juan Perez','juan@example.com');
 
