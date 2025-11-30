@@ -6,3 +6,9 @@ Cómo ejecutar:
 2. Activar entorno (opcional).
 3. Ejecutar `python archivo.py`
 
+Aquí podrás encontrar:
+-Agenda para contactos
+-calculadora de áreas geométricas
+-Conversor de temperatura y tipos de moneda
+-Ejemplo de formumario básico
+-Tabla para multiplicar
