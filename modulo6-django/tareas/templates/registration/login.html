@@ -1,0 +1,31 @@
+<!-- tareas/templates/registration/login.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Iniciar sesión</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container py-5">
+  <h1>Iniciar sesión</h1>
+
+  {% if form.errors %}
+    <div class="alert alert-danger">Usuario o contraseña incorrectos.</div>
+  {% endif %}
+
+  <form method="post" class="mb-3">
+    {% csrf_token %}
+    <div class="mb-3">
+      <label for="id_username" class="form-label">Usuario</label>
+      {{ form.username }}
+    </div>
+    <div class="mb-3">
+      <label for="id_password" class="form-label">Contraseña</label>
+      {{ form.password }}
+    </div>
+    <button class="btn btn-primary" type="submit">Entrar</button>
+  </form>
+
+  <p><a href="/admin/login/?next=/">También puedes iniciar sesión como admin</a></p>
+</body>
+</html>
